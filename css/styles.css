@@ -25,7 +25,7 @@ header {
 *{box-sizing: border-box;}
 
 ul.gnav-navi-1{
-background: #c71585;
+background: #89da59;
 padding: 0;
 text-align: center;
 }
@@ -45,7 +45,7 @@ font-size: 16px;
 font-weight: bold;
 }
 ul.gnav-navi-1 li:hover{
-background: #FF7F50;
+background: #80bd9a;
 }
 
 .search-area {
