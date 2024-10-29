@@ -44,9 +44,12 @@ background: #80bd9a;
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    max-width: 400px; /* 必要に応じて調整 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .background-image {
