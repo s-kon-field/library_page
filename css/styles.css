@@ -46,11 +46,11 @@ background: #80bd9a;
 .container {
     position: relative;
     width: 100%;
-    max-width: 600px; /* 必要に応じて調整 */
+    max-width: 400px; /* 必要に応じて調整 */
 }
 
 .background-image {
-    width: 100%;
+    width: 80%;
     height: auto; /* 画像のアスペクト比を維持 */
 }
 
