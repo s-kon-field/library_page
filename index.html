@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>北海道大学附属図書館（サンプル）</title>
+    <title>（サンプル）北海道大学附属図書館</title>
     <link rel="stylesheet" href="css/styles.css">
     <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,8 +15,15 @@
 <header>
     <div class="header_wrapper">
         <h1>
-            <a href="#"> <img src="logo.png" alt="図書館ロゴ"></a>
+            <a href="index.html"> <img class="logo" src="logo.png" alt="図書館ロゴ"></a>
         </h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#access">交通アクセス<a></li>
+                <li><a href="#contact">お問い合わせ<a></li>
+            <ul>
+        </nav>
+
         <div class="header_right">
             <!-- ドロワーボタン -->
             <div class="menu-btn sp" id="js_btn">
@@ -27,6 +34,7 @@
     </div>
 </header>
 <!-- ナビゲーション -->
+
 <nav class="gnav">
     <ul class="gnav_wrapper">
         <li><a href="#">図書館を使う</a></li>
@@ -61,47 +69,7 @@
             </ul>
         </div>
 
-  <h1 class="demo-title">カルーセル　デモサイト</h1>
-  <div class="carousel">
-    <ul class="carousel-area">
-      <!-- 意味的に画像はimgタグで配置してるが、CSSで非表示にする。 -->
-      <li class="carousel-list"><img class="carousel-img" src="img/hamster.jpg" alt="ハムスターの画像"></li>
-      <li class="carousel-list"><img class="carousel-img" src="img/sheep.jpg" alt="羊の画像"></li>
-      <li class="carousel-list"><img class="carousel-img" src="img/turtle.jpg" alt="亀の画像"></li>
-      <li class="carousel-list"><img class="carousel-img" src="img/bird.jpg" alt="鳥の画像"></li>
-      <li class="carousel-list"><img class="carousel-img" src="img/lion.jpg" alt="ライオンの画像"></li>
-    </ul>
-    <div class="arow-wrap">
-      <div class="arrow-left">
-        <button class="arrow-btn js-btn-back" type="button"></button>
-      </div>
-      <div class="arrow-right">
-        <button class="arrow-btn js-btn-next" type="button"></button>
-      </div>
-    </div>
-    <div class="pagination">
-      <span class="pagination-circle target"></span>
-      <span class="pagination-circle"></span>
-      <span class="pagination-circle"></span>
-      <span class="pagination-circle"></span>
-      <span class="pagination-circle"></span>
-    </div>
-  </div>
-  <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-  <script type="text/javascript" src="script.js"></script>
-</main>
-
-    <footer>
-        <h2>サイトマップ</h2>
-        <ul>
-            <li><a href="#use">図書館を使う</a></li>
-            <li><a href="#search">探す・調べる</a></li>
-            <li><a href="#learning">学習・教育</a></li>
-            <li><a href="#about">当館について</a></li>
-        </ul>
+  <footer>
     </footer>
 
     <script src="javascript/script.js"></script>
